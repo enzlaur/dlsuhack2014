@@ -149,12 +149,12 @@ h3{
 
 @-webkit-keyframes movestar2 {
     from {left: -80em;}
-    to {left: 120%;}
+    to {left: 60%;}
 }
 
 @keyframes movestar2 {
     from {left: -80em;}
-    to {left: 120%;}
+    to {left: 60%;}
 }
 
 .animated-star3{
@@ -179,8 +179,8 @@ h3{
     position: absolute;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    -webkit-animation: movestar3 200s infinite;
-    animation: movestar3 200s infinite;
+    -webkit-animation: movestar3 200s linear infinite;
+    animation: movestar3 200s linear infinite;
 }
 
 #starzone3{
@@ -222,4 +222,26 @@ h3{
 @keyframes movestar4 {
     from {left: -170px;}
     to {left: 100%;}
+}
+
+
+
+#animate-area	{
+    position: absolute;
+    top: 0px;
+	width: 100%; 
+	height: 70em; 
+	background-image: url(/assets/images/starmaze2.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+    -webkit-animation: animatedBackground 40s linear infinite;
+	animation: animatedBackground 40s linear infinite;
+}
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
 }
