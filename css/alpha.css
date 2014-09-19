@@ -142,18 +142,19 @@ h3{
     /*2*/
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    -webkit-animation: movestar2 100s infinite;
-    animation: movestar2 100s infinite;
+    -webkit-animation: movestar2 70s infinite;
+    animation: movestar2 70s infinite;
+    background-repeat: repeat;
 }
 
 @-webkit-keyframes movestar2 {
     from {left: -80em;}
-    to {left: 100%;}
+    to {left: 120%;}
 }
 
 @keyframes movestar2 {
     from {left: -80em;}
-    to {left: 100%;}
+    to {left: 120%;}
 }
 
 .animated-star3{
@@ -165,12 +166,12 @@ h3{
 }
 
 @-webkit-keyframes movestar3 {
-    from {left: -260em;}
+    from {left: -460em;}
     to {left: 100%;}
 }
 
 @keyframes movestar3 {
-    from {left: -260em;}
+    from {left: -460em;}
     to {left: 100%;}
 }
 
