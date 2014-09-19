@@ -81,7 +81,7 @@ h3{
 }
 
 .teamzone {
-    background: rgb(60,43,42);
+    background: rgb(50,43,42);
     padding-bottom: 10%;
 }
 
@@ -91,4 +91,25 @@ h3{
 
 #eligibility {
     padding-bottom: 10%;
+}
+
+#teamzone {
+    background: rgb(50,43,42);
+    padding-bottom: 10%;
+}
+
+#challenge {
+    background: rgb(50,50,50);
+    padding-bottom: 10%;
+}
+
+.procedure {
+    /*font*/
+    font-family: 'Ubuntu Titling';
+    font-size: 1.3em;
+    text-align: center;
+    vertical-align: middle;
+    /*border*/
+    
+        
 }
