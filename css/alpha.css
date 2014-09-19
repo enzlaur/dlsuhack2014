@@ -1,0 +1,13 @@
+body{
+    background: rgb(38,54,70) !important;
+    color: rgb(255,242,204) !important;
+}
+.top-space-20 {
+    padding-top: 4em;
+}
+
+.image-size-1 {
+    width: 80%;
+    align-content: center;
+    text-align: center;
+}
