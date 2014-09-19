@@ -113,3 +113,112 @@ h3{
     
         
 }
+
+#star-test {
+    position: relative;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation: movestar 30s infinite;
+    animation: movestar 30s infinite;
+}
+
+#starzone {
+    position: absolute;
+    width: 100%;
+}
+
+.animated-star{
+    position: absolute;
+    /*1*/
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation: movestar1 60s infinite;
+    animation: movestar1 60s infinite;
+    
+}
+
+.animated-star2{
+    position: absolute;
+    /*2*/
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation: movestar2 100s infinite;
+    animation: movestar2 100s infinite;
+}
+
+@-webkit-keyframes movestar2 {
+    from {left: -80em;}
+    to {left: 100%;}
+}
+
+@keyframes movestar2 {
+    from {left: -80em;}
+    to {left: 100%;}
+}
+
+.animated-star3{
+    position: relative;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation: movestar3 100s infinite;
+    animation: movestar3 100s infinite;
+}
+
+@-webkit-keyframes movestar3 {
+    from {left: -160em;}
+    to {left: 100%;}
+}
+
+@keyframes movestar3 {
+    from {left: -160em;}
+    to {left: 100%;}
+}
+
+#starzone2{
+    position: absolute;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation: movestar3 200s infinite;
+    animation: movestar3 200s infinite;
+}
+
+#starzone3{
+    position: absolute;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation: movestar4 100s infinite;
+    animation: movestar4 100s infinite;
+}
+
+
+@-webkit-keyframes movestar {
+    from {left: -50px;}
+    to {left: 100%;}
+}
+
+@keyframes movestar {
+    from {left: -50px;}
+    to {left: 100%;}
+}
+@-webkit-keyframes movestar1 {
+    from {left: -200px;}
+    to {left: 100%;}
+}
+
+@keyframes movestar1 {
+    from {left: -200px;}
+    to {left: 100%;}
+}
+
+
+00%;}
+}
+@-webkit-keyframes movestar4 {
+    from {left: -170px;}
+    to {left: 100%;}
+}
+
+@keyframes movestar4 {
+    from {left: -170px;}
+    to {left: 100%;}
+}
