@@ -165,12 +165,12 @@ h3{
 }
 
 @-webkit-keyframes movestar3 {
-    from {left: -160em;}
+    from {left: -260em;}
     to {left: 100%;}
 }
 
 @keyframes movestar3 {
-    from {left: -160em;}
+    from {left: -260em;}
     to {left: 100%;}
 }
 
