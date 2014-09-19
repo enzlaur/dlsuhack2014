@@ -30,3 +30,47 @@ body{
     font-family: 'Ubuntu Titling';
     font-size: 4em;
 }
+
+#above-fold {
+    height: 100%;
+}
+
+.eli-globe {
+    align-content: center;
+    align-items: center;
+    align-content: : center;    
+}
+
+.image-globe {
+    width: 100%;
+}
+
+.globe-description {
+    /*font*/
+    text-align: center;
+    font-family: 'Ubuntu Titling';
+    font-size: 1.2em;
+    /*position*/
+    padding-top: 0.7em;
+}
+
+.ubufont {
+    font-family: 'Ubuntu Titling';
+}
+
+.text-centered {
+    text-align: center;
+    align-content: center;
+}
+
+.botspace-1 {
+    padding-bottom: 1em;
+}
+
+.topspace-1 {
+    padding-top: 1em;
+}
+
+.font-2 {
+    font-size: 2em;
+}
