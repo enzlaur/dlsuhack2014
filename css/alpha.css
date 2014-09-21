@@ -17,9 +17,11 @@
 body{
     background: rgb(38,54,70) !important;
     color: rgb(255,242,204) !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;    
 }
 h3{
-    font-family: 'Ubuntu';
+    font-family: 'Nunito', sans-serif;
     color: rgb(255,242,204) !important;
 }
 .top-space-20 {
@@ -36,7 +38,7 @@ h3{
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     font-weight: 300;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #above-fold {
@@ -112,7 +114,7 @@ h3{
 
 .procedure {
     /*font*/
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.3em;
     text-align: center;
     vertical-align: middle;
