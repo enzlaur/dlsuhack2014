@@ -24,6 +24,14 @@ h3{
     font-family: 'Nunito', sans-serif;
     color: rgb(255,242,204) !important;
 }
+
+th{
+    color:inherit;    
+}
+
+td{
+    font-size: 1.3em !important;    
+}
 .top-space-20 {
     padding-top: 4em;
 }
@@ -53,7 +61,7 @@ h3{
 }
 
 .image-globe {
-    width: 100%;
+    width: 80%;
 }
 
 .globe-description {
@@ -253,4 +261,12 @@ h3{
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
+}
+.custom-table {
+    font-family: 'Nunito', sans-serif;    
+    text-align: center;    
+}
+
+.table-dim {
+    background: rgb(255,200,160) !important;
 }
