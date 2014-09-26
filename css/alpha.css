@@ -263,14 +263,15 @@ div{
 
 #animate-area	{
     position: absolute;
-    top: -50px;
+    top: 0px;
 	width: 100%; 
 	height: 70em; 
-	background-image: url(/assets/images/starmaze2-blue.png);
+    z-index: 9;
+	background-image: url(/assets/images/starmaze2.png);
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
-    -webkit-animation: animatedBackground 40s linear infinite;
-	animation: animatedBackground 40s linear infinite;    
+    -webkit-animation: animatedBackground 30s linear infinite;
+	animation: animatedBackground 30s linear infinite;
 }
 @-webkit-keyframes animatedBackground {
 	from { background-position: 0 0; }
@@ -314,8 +315,7 @@ div{
     height: 100%;
     width: 100%;    
     /*positioning*/
-    padding-top: 10%;
-    
+    padding-top: 10%;    
     /*etc*/
     display: block;
 }
