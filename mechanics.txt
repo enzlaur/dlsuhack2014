@@ -1,0 +1,46 @@
+
+About Us
+
+What is DLSU HackerCup?
+
+
+Schedule
+??? : Project Submission
+??? : Student Registration 
+Nov 15-16 : Actual Hackathon
+
+Venue
+?
+
+
+Mechanics
+
+Criteria
+25% Functionality/ Technical 
+20% Creativity (uniqueness, appropriateness ) 
+15% Usability
+20% Deployability
+20% Impact
+ 
+Eligibility
+·         The DLSU Hacker Cup is open to currently enrolled undergraduate students of DLSU (Manila and S&T Campus).
+·         Only registered and validated participants will be allowed to participate in the contest. Walk-ins will not be permitted to join. Registration ends on November 5, 2014. Validation will be sent through e-mail.
+·         There must be a (1) project manager, (1) designer and (1) developer.
+ 
+Procedure
+·         Teams will develop a mobile or web application on any platform depending on the project they wish to pursue. The list of available projects will be released on the event date (November 15, 2014).
+·	There will be mentors during the event who may be consulted.
+·         Applications may be assembled using any application frameworks and development tools. Participants are expected to bring the necessary tools to build their competition entry.
+·         Application must be built during the entire duration of the contest. Teams are given 25 hours (from 1:30pm of November 15 until 2:00pm of November 16) to finish their entries.
+·         Teams will undergo final judging by presenting their project to a panel of judges who will identify the top three winners.
+·         All decisions of judges are final. Scores will not be made public.
+· 	All participants are encouraged to maintain communication with their project mentor(s) and continue their projects even after the hackathon.
+ 
+ 
+
+The DLSU Hackercup, now on it's third year, is an annual hackathon for DLSU students. This year's Hackercup, which will take place on November 15-16, 2014, is about creating projects that can impact society positively. 
+
+DLSU professors, we are inviting you to participate in this event by submitting project ideas that you would like to see happen! Fill up the form here: bit.ly/HackercupProjectProposals. That form also contains more details regarding this. Project proposals will be screened, so stay tuned for results! 
+
+DLSU students, this is a great chance to create meaningful projects. Form a team of up to 4 members and register before November 5, 2014 to reserve a slot for your group! Registration links will be provided soon.
+
