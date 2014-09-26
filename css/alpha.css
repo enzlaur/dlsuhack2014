@@ -20,17 +20,32 @@ body{
     overflow-x: hidden !important;
     overflow-y: visible !important;    
 }
-h3{
-    font-family: 'Nunito', sans-serif;
+h1, h2, h3{
+    font-family: 'Nunito', sans-serif !important;
+    color: rgb(255,242,204) !important;
+    text-align: 
+}
+a{
     color: rgb(255,242,204) !important;
 }
 
+.justify{
+    text-align: justify;
+}
+p{
+    font-family: 'Nunito', sans-serif !important;
+    color: rgb(255,242,204);
+}
 th{
     color:inherit;    
 }
 
 td{
     font-size: 1.3em !important;    
+}
+
+div{
+    line-height: 1.5em;
 }
 .top-space-20 {
     padding-top: 4em;
@@ -269,4 +284,62 @@ td{
 
 .table-dim {
     background: rgb(255,200,160) !important;
+}
+
+#navbar {
+    /*size*/
+    height: 47px;    
+    /*color*/
+    background: rgb(255,80,80);
+    /*positioning*/
+    padding-left: 30px;
+    padding-top: 14px;        
+    /*border*/    
+    border-bottom: 2px dotted;
+    border-bottom-color: rgb(100,0,0);
+    /*font*/
+    font-family: 1.2em;
+    font-family: 'Nunito',sans-serif;
+}
+
+.small-image {
+    width: 50%;
+}
+
+#landing {    
+    /*size*/
+    height: 100%;
+    width: 100%;    
+    /*positioning*/
+    padding-top: 10%;
+    
+    /*etc*/
+    display: block;
+}
+
+#what {    
+    height: 100%;
+    padding-top: 5%;
+}
+
+#below {
+    position: relative;    
+    height: 100%;
+    width: 100%;
+}
+
+.what-title {
+    /*font*/
+    text-align: center;
+    /*size*/
+    height: 5em;
+}
+
+.tleft {
+    text-align: left;
+}
+
+#howToJoin {
+    height: 100%;
+    padding-bottom: 20%;
 }
