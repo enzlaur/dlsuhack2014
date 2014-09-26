@@ -343,3 +343,17 @@ div{
     height: 100%;
     padding-bottom: 20%;
 }
+
+.bordertb-dotted {
+    /*border*/
+    border-bottom: 2px dotted; 
+    border-bottom-color: cream;
+    border-top: 2px dotted;
+    border-top-color: cream;
+}
+
+.borderall-dotted {
+    /*border*/
+    border: 2px dotted; 
+    border-color: cream;
+}
