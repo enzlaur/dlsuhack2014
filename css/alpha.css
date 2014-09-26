@@ -379,3 +379,10 @@ div{
     border-top: 2px dotted;
     border-top-color: cream;
 }
+
+#floatingman {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 10%;
+}

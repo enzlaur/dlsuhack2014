@@ -20,12 +20,18 @@
             <a href="#what" class="scroll">WHAT</a>
             <a href="#howToJoin" class="scroll">HOW TO JOIN</a>
             <a href="#mechanics" class="scroll">MECHANICS</a>
-        </div>        
+        </div>   
+        <!--
         <div id="starzone">
             <div id="star-test">                               
             </div>                
             <div class="wow" style="position:absolute; top:0px;">
                 <div id="animate-area"></div>
+            </div>
+        </div>-->
+        <div id="floatingman">
+            <div>
+                <img class="tossing" src="assets/images/astroman1.png">
             </div>
         </div>
         <div  id="landing" class="windowheight">
@@ -82,7 +88,7 @@
                 </div>
             </div>            
             <div id="howToJoin">
-                <div class="row bordert-dotted bigEntrance">
+                <div class="row bordert-dotted ">
                     <center>
                         <h2>HOW TO JOIN</h2>
                         <div class="row pulse" style="display:none;">
@@ -108,8 +114,8 @@
                     </center>                    
                     <div class="row">
                         <br>
-                        <div class="large-6 columns slideRight">                                                        
-                            <h3 class="bordertb-dotted" style="text-align: center;">
+                        <div class="large-6 columns wow bounceInLeft">                                                        
+                            <h3 class="bordertb-dotted bigEntrance" style="text-align: center;">
                                 ELIGIBILITY
                             </h3>                                                        
                             <div class="row">                                
@@ -124,7 +130,7 @@
                                 </div>                                
                             </div>                            
                         </div>
-                        <div class="large-6 columns slideLeft">
+                        <div class="large-6 columns wow bounceInRight">
                             <h3 class="bordertb-dotted" style="text-align: center;">
                                 TEAMS
                             </h3>              
@@ -152,7 +158,7 @@
                 </div>
             </div>
             <div id="mechanics">
-                <div class="row bordert-dotted bigEntrance">
+                <div class="row bordert-dotted" id="bigEntrance" style="visibility: hidden;">
                     <center><h2 style="padding-bottom:5% !important;">MECHANICS</h2></center>
                     <div class="large-6 columns">
                         <h3 class="bordertb-dotted" style="text-align: center;">
@@ -235,26 +241,37 @@
 	       $(document).foundation();
 	    </script>
         <script>
-        $(document).ready(function(){
-            var bodyheight = $(window).height();
-            $(".windowheight").css('min-height', bodyheight);
-            $(window).resize(function(){
-            var bodyheight = $(window).height();
-            $(".windowheight").css('min-height', bodyheight);
+            $(document).ready(function(){
+                var bodyheight = $(window).height();
+                $(".windowheight").css('min-height', bodyheight);
+                $(window).resize(function(){
+                var bodyheight = $(window).height();
+                $(".windowheight").css('min-height', bodyheight);
+                });
             });
-        });
-        $(".scroll").click(function(event){
-             event.preventDefault();
-             //calculate destination place
-             var dest=0;
-             if($(this.hash).offset().top > $(document).height()-$(window).height()){
-                  dest=$(document).height()-$(window).height();
-             }else{
-                  dest=$(this.hash).offset().top;
-             }
-             //go to destination
-             $('html,body').animate({scrollTop:dest}, 1000,'swing');
-         });
-  </script>
+            $(".scroll").click(function(event){
+                 event.preventDefault();
+                 //calculate destination place
+                 var dest=0;
+                 if($(this.hash).offset().top > $(document).height()-$(window).height()){
+                      dest=$(document).height()-$(window).height();
+                 }else{
+                      dest=$(this.hash).offset().top;
+                 }
+                 //go to destination
+                 $('html,body').animate({scrollTop:dest}, 1000,'swing');
+             });
+        </script>
+        <script>
+	       $(window).scroll(function() {
+              $('#bigEntrance').each(function(){
+                  var imagePos = $(this).offset().top;
+                  var topOfWindow = $(window).scrollTop();
+                  if (imagePos < topOfWindow+400) {
+				    $(this).addClass("bigEntrance");
+                  }
+              });
+           });       
+        </script>   
     </body>
 </html>

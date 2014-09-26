@@ -777,8 +777,8 @@ floating
 	animation-name: floating;
 	-webkit-animation-name: floating;
 
-	animation-duration: 10.5s;	
-	-webkit-animation-duration: 10.5s;
+	animation-duration: 5.5s;	
+	-webkit-animation-duration: 5.5s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
@@ -818,8 +818,8 @@ tossing
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
 
-	animation-duration: 2.5s;	
-	-webkit-animation-duration: 2.5s;
+	animation-duration: 5.5s;	
+	-webkit-animation-duration: 5.5s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
