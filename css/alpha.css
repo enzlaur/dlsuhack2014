@@ -36,14 +36,17 @@ p{
     font-family: 'Nunito', sans-serif !important;
     color: rgb(255,242,204);
 }
-th{
-    color:inherit;    
-}
 
-td{
-    font-size: 1.3em !important;    
+td, table, td, tr{
+    font-size: 1.0em !important;    
+    background: transparent !important;
+    color: rgb(255,242,204) !important;    
+    border: 1px solid rgb(59, 89, 119);
 }
-
+table{
+    /*border: 1px solid black;*/
+    border-collapse: collapse;    
+}
 div{
     line-height: 1.5em;
 }
@@ -279,11 +282,11 @@ div{
 }
 .custom-table {
     font-family: 'Nunito', sans-serif;    
-    text-align: center;    
+    text-align: center;        
 }
 
 .table-dim {
-    background: rgb(255,200,160) !important;
+    background: /*rgb(255,200,160)*/ transparent !important;
 }
 
 #navbar {
@@ -340,8 +343,12 @@ div{
 }
 
 #howToJoin {
-    height: 100%;
-    padding-bottom: 20%;
+    height: 100%;    
+    background-image: linear-gradient(270deg,rgb(38,54,70) 0%,rgb(37, 90, 90) 100%);
+    background-image: -o-linear-gradient(270deg,rgb(38,54,70) 0%,rgb(37, 90, 90) 100%);
+    background-image: -moz-linear-gradient(270deg,rgb(38,54,70) 0%,rgb(37, 90, 90) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgb(38,54,70) 0%,rgb(37, 90, 90) 100%);
+    background-image: -ms-linear-gradient(270deg,rgb(38,54,70) 0%,rgb(37, 90, 90) 100%);
 }
 
 .bordertb-dotted {
@@ -356,4 +363,19 @@ div{
     /*border*/
     border: 2px dotted; 
     border-color: cream;
+}
+
+#mechanics {
+    padding-top: 5%;
+    padding-bottom: 5%;        
+    background-image: -webkit-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);    
+    background-image: linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
+    background-image: -moz-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
+    background-image: -ms-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
+    background-image: -o-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
+}
+
+.bordert-dotted {
+    border-top: 2px dotted;
+    border-top-color: cream;
 }
