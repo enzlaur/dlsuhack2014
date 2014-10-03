@@ -368,11 +368,11 @@ div{
 #mechanics {
     padding-top: 5%;
     padding-bottom: 5%;        
-    background-image: -webkit-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);    
-    background-image: linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
-    background-image: -moz-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
-    background-image: -ms-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
-    background-image: -o-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(50,43,42) 100%);
+    background-image: -webkit-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(37, 90, 90) 100%);    
+    background-image: linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(37, 90, 90) 100%);
+    background-image: -moz-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(37, 90, 90) 100%);
+    background-image: -ms-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(37, 90, 90)100%);
+    background-image: -o-linear-gradient(180deg,rgb(37, 90, 90) 0%,rgb(37, 90, 90) 100%);
 }
 
 .bordert-dotted {
